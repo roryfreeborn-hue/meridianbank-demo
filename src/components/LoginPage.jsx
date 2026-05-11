@@ -26,7 +26,7 @@ function Hero() {
       <div className="hero-content">
         <div className="hero-eyebrow">Online Banking</div>
         <div>
-          <h1 className="hero-headline">MeridianBank <em>Online</em></h1>
+          <h1 className="hero-headline">UnionBank <em>Online</em></h1>
           <p className="hero-sub">Smart Banking at your fingertips.</p>
         </div>
         <div className="hero-foot">
@@ -48,7 +48,7 @@ export default function LoginPage() {
       <div className="login-panel">
         <div className="brand">
           <div className="brand-mark">M</div>
-          <div className="brand-name">Meridian<span>Bank</span></div>
+          <div className="brand-name">Union<span>Bank</span></div>
         </div>
 
         <div className="secure-banner">
@@ -58,7 +58,7 @@ export default function LoginPage() {
             <div className="b-sub">Confirm your browser shows the verified URL before signing in.</div>
             <div className="url-row">
               <span style={{ color: '#6b21d6', display: 'flex' }}><LockIcon /></span>
-              <span className="mono" style={{ fontSize: 11.5 }}>https://online.meridianbank.com</span>
+              <span className="mono" style={{ fontSize: 11.5 }}>https://online.unionbank.com</span>
             </div>
           </div>
         </div>

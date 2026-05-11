@@ -59,7 +59,7 @@ export default function DashboardPage() {
       <aside className="dash-side">
         <div className="brand" style={{ marginBottom: 24 }}>
           <div className="brand-mark" style={{ width: 32, height: 32, fontSize: 16, borderRadius: 9 }}>M</div>
-          <div className="brand-name" style={{ fontSize: 16 }}>Meridian<span>Bank</span></div>
+          <div className="brand-name" style={{ fontSize: 16 }}>Union<span>Bank</span></div>
         </div>
         <div className="nav-item nav-item--active">◉ Overview</div>
         <div className="nav-item" onClick={() => setTransferOpen(true)}>↗ Transfer</div>
