@@ -40,7 +40,7 @@ function Hero() {
   );
 }
 
-export default function LoginPage() {
+export default function LoginPage({ onAuthSuccess }) {
   return (
     <div className="page-login">
       <Hero />
@@ -67,6 +67,7 @@ export default function LoginPage() {
         <div className="descope-wrapper">
           <Descope
             flowId="sign-up-or-in"
+            onSuccess={onAuthSuccess}
             onError={(e) => console.error('Auth error', e)}
             theme="light"
           />
